@@ -5,7 +5,7 @@
   "description": "electron-updater example project",
   "author": "Matt Haggard",
   "scripts": {
-    "publish": "build --win -p always"
+    "publish": "build --win --ia32 --x64 -p always"
   },
   "devDependencies": {
     "electron": "^1.7.9",
@@ -21,7 +21,7 @@
       {
         "provider": "github",
         "owner": "PaigeWw",
-        "repo": "electron-update-example"
+        "repo": "electron-updater-example"
       }
     ],
     "mac": {

@@ -1,6 +1,6 @@
 // This is free and unencumbered software released into the public domain.
 // See LICENSE for details
-
+// f090497f2b0dfc43a49229911aa3b74e8c0dc219    token
 const {app, BrowserWindow, Menu, protocol, ipcMain} = require('electron');
 const log = require('electron-log');
 const {autoUpdater} = require("electron-updater");
